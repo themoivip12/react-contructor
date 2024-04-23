@@ -1,0 +1,43 @@
+import { IAuthor } from './Author.type';
+import { ICategory } from './Category.type';
+
+export interface IWork {
+  authors: IAuthor[];
+  category: ICategory;
+  keywords: { id: number; name: string }[];
+  uuid: string;
+  title: string;
+  short_description: string | null;
+  description: string;
+  publish_type: number;
+  publish_period: number;
+  on_monday: boolean;
+  on_tuesday: boolean;
+  on_wednesday: boolean;
+  on_thursday: boolean;
+  on_friday: boolean;
+  on_saturday: boolean;
+  on_sunday: boolean;
+  is_pause: boolean;
+  is_finished: boolean;
+  is_exclusive: boolean;
+  is_r18: boolean;
+  views_count: number;
+  daliy_increase_amount: number;
+  week_increase_amount: number;
+  month_increase_amount: number;
+  morning_increase_amount: number;
+  lunch_increase_amount: number;
+  afternoon_increase_amount: number;
+  night_increase_amount: number;
+  dawn_increase_amount: number;
+  like_count: number;
+  rank: number;
+  rank_count: number;
+  price: number;
+  created_at: string;
+  updated_at: string;
+  represent_image_large: string;
+  represent_image_medium: string;
+  represent_image_small: string;
+}

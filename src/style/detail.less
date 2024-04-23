@@ -1,0 +1,126 @@
+@import './variables.less';
+
+span {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+.tag-name,
+.tag-status {
+  width: fit-content;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 6px 8px;
+}
+.ant-tag {
+  margin: 0;
+}
+.tag-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tag-status {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.detail-container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 13px;
+}
+
+.avatar-comic {
+  width: 120px;
+  height: 180px;
+  border: 1px solid #202020;
+  border-radius: 6px;
+  background-color: @gray-3;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comic-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+}
+
+.star {
+  vertical-align: inherit;
+}
+
+.btn-detail-comic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 20px 12px 16px;
+  gap: 10px;
+  border: 2px solid #4f4f4f;
+  border-radius: 50px;
+  color: @gray-4;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: transparent;
+}
+
+.category,
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: @gray-4;
+  margin-bottom: 8px;
+}
+
+.comic-tab,
+.notice-tab {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 7px 13px;
+  gap: 10px;
+  border-radius: 20px;
+  background: @gray-3;
+  font-weight: 400;
+}
+
+.active-tab-btn {
+  background: @green-primary;
+  font-weight: 700;
+}
+.btn-new-ep {
+  color: @green-primary;
+  background: transparent;
+}
+
+.list-container {
+  margin-top: 16px;
+  border-top: 1px solid @gray-2;
+}
+
+.episode-item {
+  padding: 18px 0;
+  border-bottom: 1px solid @gray-2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-delete-ep {
+  background: transparent;
+}

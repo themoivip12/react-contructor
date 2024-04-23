@@ -1,0 +1,156 @@
+{
+  "common": {
+    "home": "trang chu",
+    "fieldRequired": "{{field}} is required",
+    "cash": "정산관리",
+    "user": "마이페이지",
+    "weekDays": {
+      "1": "월요일",
+      "2": "화요일",
+      "3": "수요일",
+      "4": "목요일",
+      "5": "금요일",
+      "6": "토요일",
+      "0": "일요일"
+    },
+    "cancel": "취소",
+    "readMore": "더보기",
+    "publicType": {
+      "OPEN": "공개",
+      "PRIVATE": "공개"
+    }
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "usernamePlaceholder": "Type Username",
+    "passwordPlaceholder": "Type Password",
+    "passwordIncorrect": "Password incorrect"
+  },
+  "main": {
+    "novel": "소설",
+    "comic": "만화",
+    "create": "새 작품 쓰기",
+    "createTitle": "작품이 소설인지 웹툰인지 선택하세요",
+    "updateTitle": "정보 수정",
+    "210x312RepresentImage": "210 X 312 사이즈의 이미지 등록하기",
+    "70x104RepresentImage": "70 X 104 사이즈의 이미지 등록하기",
+    "enterTitleYourWork": "작품의 제목을 입력하세요.",
+    "limit30Character": "작품 제목 (30자 이내)",
+    "selectGent": "장르를 선택하세요.",
+    "selectGentPlaceholder": "장르 선택",
+    "briefYourWork": "작품 소개를 간단하게 입력해주세요.",
+    "briefYourWorkLimit1000Character": "작품 소개 (1000자 이내)",
+    "briefYourWorkPlaceholder": "작품 소개를 간단하게 입력해주세요.",
+    "selectWorkTag": "작품태그를 선택하세요.",
+    "duplicateIsPossible": "중복선택이 가능해요.",
+    "selectWorkTagPlaceholder": "작품태그를 검색해보세요.",
+    "discloseOrNot": "공개여부를 선택하세요.",
+    "selectDatePublic": "연재요일을 선택하세요.",
+    "createWork": "작품생성"
+  },
+  "myPage": {
+    "header": "마이페이지",
+    "authorName": "작가명",
+    "authorNamePlaceholder": "작성자 이름 입력",
+    "editBtn": "수정하기",
+    "deleteAccount": "회원 탈퇴를 원하시나요?",
+    "btnInActiveAccount": "로그아웃"
+  },
+  "payment": {
+    "header": "정산관리",
+    "myProceeds": "내 수익금",
+    "myProceedsPlaceholder": "내 수익 입력",
+    "proceedsApply": "신청할 수익금",
+    "placeholderProceeds": "출금 신청할 수익금을 입력해주세요.",
+    "button": "정산 신청",
+    "table": {
+      "no": "번호",
+      "money": "정산금액",
+      "registrationDate": "정산 신청일",
+      "finishSettlementDate": "정산 완료일",
+      "status": "정산상태",
+      "note": "메모"
+    }
+  },
+  "detail": {
+    "btnDelete": "소설 삭제",
+    "btnEdit": "정보 수정",
+    "btnEpisode": "에피소드",
+    "btnNotice": "공지",
+    "btnAddEpisode": "새 에피소드 작성하기",
+    "btnAddNotice": "새 공지 작성하기"
+  },
+  "episode": {
+    "title": "에피소드 추가",
+    "label": {
+      "addImage": "에피소드 이미지를 등록하세요.",
+      "epNameLabel": "에피소드의 제목을 입력하세요.",
+      "reservationLabel": "예약 발행 여부를 선택하세요.",
+      "epubLabel": "소설 파일(epub / word)을 첨부하세요."
+    },
+    "validateEpName": "에피소드 제목 (30자 이내)",
+    "epubPlaceholder": "epub / word 파일 첨부하기",
+    "button": {
+      "used": "사용함",
+      "notUsed": "사용안함",
+      "createEp": "발행하기",
+      "delete": "삭제"
+    },
+    "message": {
+      "createSuccess": "새 에피소드를 성공적으로 생성",
+      "createFailed": "새 에피소드 생성 실패",
+      "updateSuccess": "에피소드 업데이트 성공",
+      "updateFailed": "에피소드 업데이트 실패",
+      "deleteSuccess": "에피소드 삭제 성공",
+      "deleteFailed": "에피소드 삭제 실패"
+    }
+  },
+  "notice": {
+    "header": "공지 추가",
+    "message": {
+      "create": {
+        "novel": "새 소설을 성공적으로 만들었습니다.",
+        "comic": "새로운 성공적인 만화 만들기."
+      },
+      "update": {
+        "novel": "소설 업데이트 성공.",
+        "comic": "만화 업데이트 성공."
+      },
+      "delete": {
+        "novel": "소설 삭제 성공.",
+        "comic": "만화를 성공적으로 제거."
+      }
+    },
+    "validate": {
+      "require": {
+        "title": "공지 제목을 입력하세요.",
+        "content": "공지 내용을 입력해주세요."
+      },
+      "maxLength": {
+        "title": "공지 제목 (30자 이내)",
+        "content": "최대 2,000자 입력가능"
+      }
+    },
+    "noticeType": {
+      "title": "공지 유형을 선택해주세요.",
+      "suspension": "휴재공지",
+      "completion": "완결공지",
+      "other": "기타공지"
+    },
+    "placeholder": "내용 입력",
+    "reservation": {
+      "title": "예약 발행 여부를 선택하세요.",
+      "used": "사용함",
+      "noUsed": "사용안함"
+    },
+    "label": {
+      "title": "공지 제목",
+      "content": "내용"
+    },
+    "button": {
+      "cancel": "취소",
+      "publish": "발행하기"
+    }
+  }
+}

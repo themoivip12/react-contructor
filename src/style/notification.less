@@ -1,0 +1,38 @@
+@import "./variables.less";
+
+
+
+
+.notice-success {
+    .ant-notification-notice-message , .ant-notification-notice-description{
+        color: @secondary !important;
+        text-align: center !important;
+        margin-bottom: 0;
+    }
+  
+}
+.notice-error {
+    .ant-notification-notice-message , .ant-notification-notice-description{
+        color: @red !important;
+        text-align: center !important;
+        margin-bottom: 0;
+
+    }
+}
+.ant-notification-notice{
+    width: 351px;
+    font-weight: 700;
+    size: 18px;
+    line-height:24px;
+    border-radius: 20px;
+}
+
+.ant-notification-notice-closable .ant-notification-notice-message{
+    padding: 0;
+}
+.ant-notification-notice-btn{
+    width: 100%;
+    button{
+        padding: 11px 0;
+    }
+}
